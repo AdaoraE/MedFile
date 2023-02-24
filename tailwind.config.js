@@ -5,7 +5,11 @@ module.exports = {
     extend: {
       colors: {
         "main-color": "#0C97C2",
-        "yellow":"#FD9C24"
+        yellow: "#FD9C24",
+        "text-color": "#333333",
+      },
+      fontFamily: {
+        Montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
