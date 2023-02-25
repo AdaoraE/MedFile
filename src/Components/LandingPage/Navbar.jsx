@@ -3,11 +3,11 @@ import Logo from './images/logo.png'
 function Navbar() {
     return (
         <>
-            <nav className='bg-white border-b-[0.5px] h-24 flex justify-between items-center px-16 font-semibold'>
+            <nav className='bg-white border-b-[0.03rem] h-24 flex justify-between items-center px-16 font-semibold'>
                 <div>
                     <img src={Logo} alt="" />
                 </div>
-
+                
                 <div className='flex gap-x-16 list-none text-sm leading-3  text-black'>
                     <li>Product</li>
                     <li>Resources</li>
