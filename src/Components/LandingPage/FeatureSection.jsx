@@ -11,7 +11,7 @@ function FeatureSection() {
     <section className='flex flex-col items-center'>
       <div className='flex flex-col text-center'>
         <Headings text='Features' /> 
-        <p className='w-[71.6rem] font-normal text-xl text-text-color mt-9'>Medfile is a software network for hospitals to document patient details and case files electronically. The secure and advanced digital record management system ensures medical professionals can access critical information from anywhere, all-at-once.</p>
+        <p className=' font-normal text-xl text-text-color mt-9'>Medfile is a software network for hospitals to document patient details and case files electronically. The secure and advanced digital record management system ensures medical professionals can access critical information from anywhere, all-at-once.</p>
       </div>
       <div className='flex flex-row gap-6 mb-20'> 
         <div className='flex flex-col gap-7  w-[20rem] justify-center items-center p-6'>
