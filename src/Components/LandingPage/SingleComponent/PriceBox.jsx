@@ -3,8 +3,8 @@ import LiSection from './LiSection'
 function PriceBox(props) {
   return (
     <>
-          <div className='w-[434px] h-[658px] border-2 border-main-color rounded-lg text-center p-10'>
-              <h2 className='font-meduim text-center text-2xl text-text-color border-b-2'>{props.heading}</h2>
+          <div className='w-[27.125rem] h-[41.125px] border-2 border-main-color rounded-lg text-center p-10'>
+              <h2 className='font-medium text-center text-2xl text-text-color border-b-2'>{props.heading}</h2>
               <ul className='test-sm font-normal space-y-6 capitalize'>
                   <LiSection {...props.list} />
                   <LiSection text='appointment scheduling' />
