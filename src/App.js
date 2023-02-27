@@ -19,8 +19,17 @@ function App() {
       <HowItWorksSection />
       <PricingSection />
       <OurCustomer />
-   <GetStarted/>
-   <Footer/>
+      <GetStarted/>
+      <Footer/>
+
+      <Router>
+        <div>
+            <Routes>
+              <Route path='/admin' element = { <Adminp/> } />
+            </Routes>
+        </div>
+      </Router>
+       
     </>
   );
 }
