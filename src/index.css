@@ -15,6 +15,7 @@ body {
   max-width: 1512px;
   height: 100vh;
   margin-inline: auto;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
