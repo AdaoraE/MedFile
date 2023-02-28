@@ -11,11 +11,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/* body {
+body {
   max-width: 1512px;
   height: 100vh;
   margin-inline: auto;
-} */
+}
 
 @media (max-width: 768px) {
 
