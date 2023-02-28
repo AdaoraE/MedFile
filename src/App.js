@@ -1,3 +1,5 @@
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import Adminp from './Pages/Adminp';
 import Hero from "./Components/LandingPage/Hero";
 import Navbar from "./Components/LandingPage/Navbar/Navbar";
 import Section3 from "./Components/LandingPage/Section3";
@@ -11,14 +13,23 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <Hero /> 
       <Section3 />
       <FeatureSection />
       <HowItWorksSection />
       <PricingSection />
       <OurCustomer />
-   <GetStarted/>
-   <Footer/>
+      <GetStarted/>
+      <Footer/>
+
+      <Router>
+        <div>
+            <Routes>
+              <Route path='/admin' element = { <Adminp/> } />
+            </Routes>
+        </div>
+      </Router>
+       
     </>
   );
 }
