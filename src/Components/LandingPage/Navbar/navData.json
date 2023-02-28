@@ -1,0 +1,26 @@
+[
+        {
+            "id": 1,
+            "title": "Product",
+            "subTitle":[
+                    "Product","MedFile"]
+        },
+        {
+            "id": 2,
+            "title": "Resources",
+             "subTitle":[
+                    "Resources","Features", "How it works", "FAQs"]
+        },
+        {
+            "id": 3,
+            "title": "Pricing",
+            "subTitle":[
+                    "Pricing","Basic", "Premium", "Custom"]
+        },
+        {
+            "id": 4,
+            "title": "Company",
+             "subTitle":[
+                    "Company","About Us", "Contact Us", "Privacy Policy","Terms of services"]
+        }
+    ]

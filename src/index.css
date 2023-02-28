@@ -4,18 +4,36 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
-body{
-  width:100%;
+
+body {
   max-width: 1512px;
   height: 100vh;
   margin-inline: auto;
 }
-section{
-  padding : 0 6rem;
+
+@media (max-width: 768px) {
+
+  /* body{
+    background-color: darkred;
+  } */
+  section {
+    padding: 0 2rem;
+
+  }
+}
+
+@media (min-width: 769px) {
+
+  /* body{
+    background-color: blue;
+  } */
+  section {
+    padding: 0 6rem;
+  }
 }

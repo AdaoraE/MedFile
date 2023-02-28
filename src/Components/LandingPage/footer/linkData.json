@@ -1,0 +1,19 @@
+[
+  {
+     "id":1,
+    "heading": "Features",
+    "list": ["How it works", "Pricing"]
+  },
+  {
+    "id":2,
+    "heading": "Company",
+    "list": ["About Us", "Team","Testimonals","FAQs"]
+  },
+
+  { "id":3,
+    "heading": "Help and Support",
+    "list": ["Customer Support", "Legal Policy","Troubleshooting"]
+  }
+  
+]
+
