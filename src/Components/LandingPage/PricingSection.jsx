@@ -66,7 +66,7 @@ function PricingSection() {
             <LiSection text='Assets Management' />
             <LiSection text='Report Designer' />
           </ul>
-          <div className='flex flex-col justify-center items-center'>
+          <div className='flex flex-col justify-center items-center mt-8'>
             <button className="h-[3rem] w-[24.125rem] text-white bg-main-color hover:bg-[#097192] rounded-lg text-2xl text-center font-semibold ">Select Plan</button>
           </div>
         </div>
