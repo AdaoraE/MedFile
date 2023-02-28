@@ -10,28 +10,35 @@ import OurCustomer from "./Components/LandingPage/ourCustomer/OurCustomer";
 import GetStarted from "./Components/LandingPage/GetStarted";
 import Footer from "./Components/LandingPage/footer/Footer";
 function App() {
+
+  let details = navigator.userAgent;
+  let regexp = /android|iphone|kindle|ipad/i;
+  let isMobileDevice = regexp.test(details);
+
+  if (isMobileDevice) {
+    document.write("<h3>PLEASE OPEN ON A DESKTOP FOR BETTER USER EXPERIENCE</h3>");
+  } else {
   return (
     <>
       <Navbar />
-      <Hero /> 
+      <Hero />
       <Section3 />
       <FeatureSection />
       <HowItWorksSection />
       <PricingSection />
       <OurCustomer />
-      <GetStarted/>
-      <Footer/>
+      <GetStarted />
+      <Footer />
 
       <Router>
         <div>
-            <Routes>
-              <Route path='/admin' element = { <Adminp/> } />
-            </Routes>
+          <Routes>
+            <Route path="/admin" element={<Adminp />} />
+          </Routes>
         </div>
       </Router>
-       
     </>
   );
 }
-
+}
 export default App;
