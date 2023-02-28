@@ -24,7 +24,7 @@ function App() {
       <Hero />
       <Section3 />
       <FeatureSection />
-      <HowItWorksSection />
+      <HowItWorksSection /> 
       <PricingSection />
       <OurCustomer />
       <GetStarted />
