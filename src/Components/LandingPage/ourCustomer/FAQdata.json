@@ -1,19 +1,54 @@
 [
   {
     "index": 1,
-    "question": "What is Medfile used for?",
+    "question": "What is Medfile?",
     "answer":
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, praesentium?"
+      "Medfile is a software network that enables Nigerian hospitals to document patient details and case files electronically."
   },
   {
     "index": 2,
-    "question": "How secure is my data with Medfile SaaS?",
-    "answer": "How can I get started with Medfile SaaS?"
+    "question": "How can Medfile help our hospital?",
+    "answer": "Medfile can help your hospital by streamlining the documentation process, reducing errors and data loss, and improving patient care and satisfaction."
   },
   {
     "index": 3,
-    "question": "What is Medfile used for?",
+    "question": "Is Medfile customizable?",
     "answer":
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, praesentium?"
+      "Yes, Medfile can be customized to meet the needs of your hospital, including workflow integration and data privacy and security features."
+  },
+  {
+    "index": 4,
+    "question": "How easy is it to use Medfile?",
+    "answer": "Medfile is designed to be intuitive and user-friendly, with minimal training required for staff to use it effectively."
+  },
+  {
+    "index": 5,
+    "question": "What security measures does Medfile have in place?",
+    "answer": "Medfile has robust data privacy and security measures in place, including permissions and access levels, encrypted storage, and backup and recovery processes."
+  },
+   {
+    "index": 6,
+    "question": "Can Medfile integrate with our existing systems?",
+    "answer": "Yes, Medfile can integrate with your hospital's existing systems and workflows to improve efficiency and data accuracy."
+  },
+   {
+    "index": 7,
+    "question": "Is customer support available for Medfile?",
+    "answer": "Yes, Medfile offers customer support to ensure that hospitals can get the most out of the software and resolve any issues that may arise."
+  },
+  {
+    "index": 8,
+    "question": "How much does Medfile cost?",
+    "answer": "The cost of Medfile depends on the size and needs of your hospital. Please contact us for more information and a customized quote."
+  },
+  {
+    "index": 9,
+    "question": "How does Medfile compare to other health tech products on the market?",
+    "answer": "Medfile is specifically designed for the Nigerian healthcare market and is tailored to meet the unique challenges and needs of hospitals in the country."
+  },
+  {
+    "index": 10,
+    "question": "How can we get started with using Medfile?",
+    "answer": "To get started with using Medfile, please contact us to schedule a demo and discuss your hospital's needs and requirements"
   }
 ]

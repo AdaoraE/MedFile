@@ -1,5 +1,5 @@
 import React from 'react'
-
+import DashboardImage from './images/Admin.png'
 function Hero() {
   return (
     <section name='Product' className='flex flex-col items-center'>
@@ -14,8 +14,18 @@ function Hero() {
       </div>
 
      
-      <div className='border-2 mt-20 w-full h-80 border-main-color text-center text-5xl'> 
-   input dashboard iframe 
+
+
+{/* REQUEST A DEMO */}
+
+
+
+
+
+
+
+      <div className='mt-20 w-[1113px] h-[809px] border-main-color text-center overflow-hidden text-5xl'> 
+<img src={DashboardImage} alt="" className='w-full '/>
         {/* <iframe src="" frameborder="0"></iframe> */}
       </div>
 

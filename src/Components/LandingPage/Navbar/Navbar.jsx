@@ -87,8 +87,8 @@ function NavBar() {
 
             <div className='hidden lg:flex'>
                 <div className='text-[1rem] text-main-color p-2 font-normal'>
-                    <span>Log in</span>
-                    <span className='ml-10 bg-main-color text-white p-2 rounded-lg'>Get Started</span>
+                    <span className='text-main-color  py-2 px-[10px] rounded-lg border-2 border-main-color hover:bg-main-color hover:text-white text-base '>Log in </span>
+                    <span className='ml-10 bg-main-color hover:bg-[#0A799B]  text-white py-2 px-[10px] rounded-lg border-2 border-main-color hover:border-[#0A799B]'>Get Started</span>
                 </div>
             </div>
         </nav>
