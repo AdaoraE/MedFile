@@ -13,12 +13,13 @@ function FeatureSection() {
         <Headings text='Features' /> 
         <p className=' font-normal text-xl text-text-color my-9'>Medfile is a software network for hospitals to document patient details and case files electronically. The secure and advanced digital record management system ensures medical professionals can access critical information from anywhere, all-at-once.</p>
       </div>
+
       <div className='grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-20'> 
-        <div className='flex flex-col gap-7  w-[20rem] justify-center items-center p-6'>
+
+        <div className='flex flex-col gap-7  w-[20rem] h-[23.125rem] justify-center items-center hover:shadow-2xl hover:rounded-xl p-6  '>
           <div className='bg-[#DBEFF6] rounded-xl w-[8.6rem] h-[8rem] flex items-center justify-center'>
             <img src={LightBulb} alt=""  />
           </div>
-          
           <div className='w-[17rem] border-[1px] border-main-color rounded'></div>
           <h3 className='text-text-color text-2xl font-medium'>Easy and Intuitive</h3>
           <p className='w-[16.3rem] text-base text-center' >Easily converse with your data using everyday language.</p>
@@ -26,8 +27,8 @@ function FeatureSection() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-7  w-[20rem] justify-center items-center p-6'>
-          <div className='bg-[#075B74] rounded-xl w-[8.6rem] h-[8rem] flex items-center justify-center'>
+        <div className='flex flex-col gap-7  w-[20rem] h-[23.125rem] justify-center hover:shadow-2xl hover:rounded-xl items-center p-6'>
+          <div className='bg-[#0C97C2] rounded-xl w-[8.6rem] h-[8rem] flex items-center justify-center'>
             <img src={Report} alt="" />
           </div>
           <div className='w-[17rem] border-[1px] border-main-color rounded'></div>
@@ -38,7 +39,7 @@ function FeatureSection() {
         </div>
 
 
-        <div className='flex flex-col gap-7  w-[20rem] justify-center items-center p-6'>
+        <div className='flex flex-col gap-7  w-[20rem] h-[23.125rem] justify-center hover:shadow-2xl hover:rounded-xl items-center p-6'>
           <div className='bg-[#0A799B] rounded-xl w-[8.625rem] h-[8rem] flex items-center justify-center'>
             <img src={BusinessReport} alt=""  />
           </div>
@@ -49,7 +50,7 @@ function FeatureSection() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-7  w-[20rem] justify-center items-center p-6'>
+        <div className='flex flex-col gap-7  w-[20rem] h-[23.125rem] hover:shadow-2xl hover:rounded-xl justify-center items-center p-6'>
           <div className='bg-[#075B74] rounded-xl w-[8.625rem] h-[8rem] flex items-center justify-center'>
             <img src={CloudComputing} alt=""  />
           </div>

@@ -7,7 +7,7 @@ import { SlSocialLinkedin, SlSocialFacebook } from 'react-icons/sl'
 import links from './linkData'
 function Footer() {
   return (
-    <section className='bg-main-color  text-white '>
+    <section className='bg-[#0A799B]  text-white '>
       <div className='flex flex-col lg:flex-row justify-between gap-10 pt-20 text-base md:text-2xl lg:text-base'>
 
         <div>
@@ -33,8 +33,8 @@ function Footer() {
                 <div className='text-2xl font-semibold'>
                   {heading}</div>
 
-                <div className='flex flex-col gap-5 mt-7'>
-                  {list.map((listItem,i) => <p key={i}>{listItem}</p>)}
+                <div className='flex flex-col gap-5 mt-7 '>
+                  {list.map((listItem, i) => <p key={i} className='hover:text-main-color'>{listItem} </p>)}
                 </div>
               </div>
 

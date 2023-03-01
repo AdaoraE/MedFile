@@ -8,9 +8,9 @@ function PricingSection() {
       <Headings text='Pricing' />
       <div className='flex flex-col md:flex-wrap xl:flex-nowrap lg:flex-row justify-center gap-10 mt-12 align-middle items-center'>
 
-        <div className=' border-2 border-[#B4DFEC] hover:border-[#097192] rounded-lg px-10 py-4 w-[27rem] '>
+        <div className=' border-2 border-[#B4DFEC] hover:scale-105 rounded-lg px-10 py-4 w-[27rem] '>
           <h2 className='font-medium text-center text-2xl text-text-color pt-2 border-b-[1px] border-black'>Basic</h2>
-          <ul className='text-lg font-normal mt-6 space-y-6 capitalize'>
+          <ul className='text-lg font-normal mt-6 space-y-6 capitalize '>
             <LiSection text='patient registration' />
             <LiSection text='appointment scheduling'/>
             <LiSection text='Doctor Work Bench'/>
@@ -31,7 +31,7 @@ function PricingSection() {
       
 
 
-        <div className=' border-2 border-[#B4DFEC] hover:border-[#097192] rounded-lg px-10 py-4 w-[27rem]'>
+        <div className='border-2 border-[#097192] hover:scale-105 rounded-lg px-10 py-4 w-[27rem]'>
           <h2 className='font-medium text-center text-2xl text-text-color pt-2 border-b-[1px] border-black'>Premium</h2>
           <ul className='text-lg font-normal mt-6 space-y-6 capitalize'>
             <LiSection text='Basic Features'/>
@@ -53,7 +53,7 @@ function PricingSection() {
         </div>
 
 
-        <div className=' border-2 border-[#B4DFEC] hover:border-[#097192] rounded-lg px-10 py-4 w-[27rem]'>
+        <div className=' border-2 border-[#B4DFEC] hover:scale-105 rounded-lg px-10 py-4 w-[27rem]'>
           <h2 className='font-medium text-center text-2xl text-text-color pt-2 border-b-[1px] border-black'>Custom</h2>
           <ul className='text-lg font-normal mt-6 space-y-6 capitalize'>
             <LiSection text='Basic Features' />

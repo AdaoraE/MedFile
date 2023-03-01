@@ -13,7 +13,7 @@ function OurCustomer() {
       </ul>
 
       {/* USE HOC HERE */}
-      <div className='mb-[85px]'>
+      <div className='mb-[85px] mt-24'>
         <Headings text='Frequently Asked Questions' />
       </div>
 

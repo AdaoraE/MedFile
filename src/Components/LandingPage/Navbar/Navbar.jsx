@@ -15,7 +15,7 @@ function NavBar() {
     }, []);
     return (
         
-        <nav className='bg-white border-b-[0.03rem] h-24 flex justify-between items-center px-16 font-semibold'>
+        <nav className='bg-white border-b-[0.03rem] border-[#B4DFEC] h-[60px] flex justify-between items-center px-20 font-semibold fixed z-50 w-full'>
 
             <div>
                 <Link
