@@ -55,7 +55,7 @@ function NavBar() {
             {/* links for responsive navbar */}
             {nav && (
 
-                <ul className='flex flex-col items-center absolute top-0 right-0 w-80 h-screen bg-main-color text-white'>
+                <ul className='flex flex-col items-center absolute top-0 right-0 w-80 h-screen bg-main-color text-white md:hidden'>
                     {navData.map(({ id, title }) =>
                     <div className='mt-20'>
                         <li
@@ -76,12 +76,6 @@ function NavBar() {
                     <div className='text-4xl hidden md:flex md:flex-col items-center gap-20 mt-20 text-main-color text-center cursor-pointer '>
                         <span className=' bg-white w-72 py-2 rounded-lg'>Log in</span>
                         <span className=' bg-white rounded-lg w-72 py-2 '>Get Started</span></div>
-
-                    {/* <div className='flex'>
-                        <div className='text-[1rem] text-main-color p-2 font-normal'>
-                            <span>Log in</span>
-                            <span className='ml-10 bg-main-color text-white p-2 rounded-lg'>Get Started</span>
-                            </div></div> */}
                 </ul>
             )}
 

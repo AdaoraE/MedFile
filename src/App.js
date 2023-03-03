@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Adminp from './Pages/Adminp';
-import Hero from "./Components/LandingPage/Hero";
+import Hero from "./Components/LandingPage/heroSection/Hero";
 import Navbar from "./Components/LandingPage/Navbar/Navbar";
 import Section3 from "./Components/LandingPage/Section3";
 import FeatureSection from "./Components/LandingPage/FeatureSection";
