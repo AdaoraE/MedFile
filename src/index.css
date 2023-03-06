@@ -21,7 +21,13 @@ body {
   /* overflow-x: hidden; */
 overflow-y: auto;
 }
-
+.selected{
+background-color: #0C97C2;
+color: white;
+}
+.popup-open{
+  background-color: red;
+}
 @media (max-width: 768px) {
 
   /* body{

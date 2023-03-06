@@ -22,14 +22,14 @@ return(
 
 
                 
-                    <Link to="/login" className='text-main-color  py-2 px-[10px] rounded-lg border-2 border-main-color hover:bg-main-color hover:text-white text-base '> Log in </Link>
+                    <Link to='/login' className='text-main-color  py-2 px-[10px] rounded-lg border-2 border-main-color hover:bg-main-color hover:text-white text-base '> Log in </Link>
                    
 
                    
 
 
                     
-                    <span className='ml-10 bg-main-color hover:bg-[#0A799B]  text-white py-2 px-[10px] rounded-lg border-2 border-main-color hover:border-[#0A799B]'>Get Started</span>
+                    <Link to='/signUp' className='ml-10 bg-main-color hover:bg-[#0A799B]  text-white py-2 px-[10px] rounded-lg border-2 border-main-color hover:border-[#0A799B]'>Get Started</Link>
                 </div>
             </div></nav>
             </>
