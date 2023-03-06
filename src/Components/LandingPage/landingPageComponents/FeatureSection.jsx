@@ -1,14 +1,14 @@
 import React from 'react'
 import Headings from './SingleComponent/Headings'
-import LightBulb from './images/light-bulb-1.png'
-import Report from './images/report.png'
-import BusinessReport from './images/business-report.png'
-import CloudComputing from './images/cloud-computing.png'
+import LightBulb from '../images/light-bulb-1.png'
+import Report from '../images/report.png'
+import BusinessReport from '../images/business-report.png'
+import CloudComputing from '../images/cloud-computing.png'
 
 import { AiOutlineArrowRight } from 'react-icons/ai'
 function FeatureSection() {
   return (
-    <section name='Resources'  className='flex flex-col items-center'>
+    <section id='feature'  className='flex flex-col items-center'>
       <div className='flex flex-col text-center'>
         <Headings text='Features' /> 
         <p className=' font-normal text-xl text-text-color my-9'>Medfile is a software network for hospitals to document patient details and case files electronically. The secure and advanced digital record management system ensures medical professionals can access critical information from anywhere, all-at-once.</p>

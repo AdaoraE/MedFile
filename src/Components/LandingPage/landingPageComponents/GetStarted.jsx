@@ -1,11 +1,11 @@
 import React from 'react'
-import LeftTopImage from './images/Exclude1.png'
-import LeftBottomImage from './images/Exclude2.png'
-import RightTopImage from './images/Exclude3.png'
-import RightBottomImage from './images/Exclude4.png'
-import FilledCircle from './images/ExcludeA.png'
-import RightCircle from './images/Ellipse.png'
-import Circle from './images/ExcludeB.png'
+import LeftTopImage from '../images/Exclude1.png'
+import LeftBottomImage from '../images/Exclude2.png'
+import RightTopImage from '../images/Exclude3.png'
+import RightBottomImage from '../images/Exclude4.png'
+import FilledCircle from '../images/ExcludeA.png'
+import RightCircle from '../images/Ellipse.png'
+import Circle from '../images/ExcludeB.png'
 
 function GetStarted() {
   return (

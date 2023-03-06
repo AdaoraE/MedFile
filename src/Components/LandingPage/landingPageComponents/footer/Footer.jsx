@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../images/footerLogo.png'
+import Logo from '../../images/footerLogo.png'
 import { FiPhone } from 'react-icons/fi'
 import { RxEnvelopeClosed } from 'react-icons/rx'
 import { RiTwitterLine } from 'react-icons/ri'

@@ -1,11 +1,11 @@
 import React from 'react'
 import Headings from './SingleComponent/Headings'
-import YoutubeFrame from './images/Frame.png'
+import YoutubeFrame from '../images/Frame.png'
 import LiSection from './SingleComponent/LiSection'
 function HowItWorksSection() {
   return (
     <>
-      <section className='bg-[#E7F5F9] py-6 '>
+      <section  className='bg-[#E7F5F9] py-6 '>
         <Headings text='How it Works' />
        <div className='flex flex-col xl:flex-row justify-between gap-10 items-center mt-9'>
           <a href="https://www.youtube.com/@tech4devhq618" target='_blank' rel="noreferrer" className='hover:scale-105'> <img src={YoutubeFrame} alt="" width='100%'/></a>

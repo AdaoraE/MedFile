@@ -4,7 +4,7 @@ import LiSection from './SingleComponent/LiSection'
 
 function PricingSection() {
   return (
-    <section name='Pricing'>
+    <section id='pricing' >
       <Headings text='Pricing' />
       <div className='flex flex-col md:flex-wrap xl:flex-nowrap lg:flex-row justify-center gap-10 mt-12 align-middle items-center'>
 

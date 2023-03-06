@@ -4,7 +4,7 @@ import faqs from './FAQdata'
 import FAQpage from './FAQpage';
 function OurCustomer() {
   return (
-    <section name='Company' className='mt-[80px] pt-[49px]'>
+    <section id='customer' name='Company' className='mt-[80px] pt-[49px]'>
       <Headings text='Who we serve' />
       <ul className='text-[28px] text-[#333333] flex flex-col md:flex-row gap-8 justify-between capitalize mt-[128px] text-center'>
         <li>private & public <br/>hospitals</li>

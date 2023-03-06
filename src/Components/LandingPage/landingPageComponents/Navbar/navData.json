@@ -2,24 +2,28 @@
         {
             "id": 1,
             "title": "Product",
+            "link":"/",
             "subTitle":[
                     "Product","MedFile"]
         },
         {
             "id": 2,
             "title": "Resources",
+               "link":"#feature",
              "subTitle":[
                     "Resources","Features", "How it works", "FAQs"]
         },
         {
             "id": 3,
             "title": "Pricing",
+             "link":"#pricing",
             "subTitle":[
                     "Pricing","Basic", "Premium", "Custom"]
         },
         {
             "id": 4,
             "title": "Company",
+             "link":"#customer",
              "subTitle":[
                     "Company","About Us", "Contact Us", "Privacy Policy","Terms of services"]
         }
