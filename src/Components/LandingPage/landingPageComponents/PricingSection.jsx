@@ -8,7 +8,7 @@ function PricingSection() {
       <Headings text='Pricing' />
       <div className='flex flex-col md:flex-wrap xl:flex-nowrap lg:flex-row justify-center gap-5 mt-12 align-middle items-center'>
 
-        <div className=' border-2 border-[#B4DFEC] hover:scale-105 rounded-lg p-4  '>
+        <div className=' border-2 border-[#B4DFEC] hover:scale-105 rounded-lg p-4 w-[18rem] sm:w-[27.125rem] '>
           <h2 className='font-medium text-center text-2xl text-text-color pt-2 border-b-[1px] border-black'>Basic</h2>
           <ul className='text-lg font-normal mt-6 space-y-6 capitalize '>
             <LiSection text='patient registration' />
@@ -25,13 +25,13 @@ function PricingSection() {
           </div>
           <p className='text-l text-lg font-normal mb-4 text-[#6A737C] text-center'>Billed monthly</p>
           <div className='flex flex-col justify-center items-center'>
-          <button className="h-[3rem] w-[24.125rem] text-white bg-main-color hover:bg-[#097192] rounded-lg text-2xl text-center font-semibold ">Select Plan</button>
+            <button className="h-[3rem] w-[17rem]  lg:w-[24.125rem] text-white bg-main-color hover:bg-[#097192] rounded-lg text-2xl text-center font-semibold ">Select Plan</button>
         </div>
         </div>
       
 
 
-        <div className='border-2 border-[#097192] hover:scale-105 rounded-lg p-4 '>
+        <div className='border-2 border-[#097192] hover:scale-105 rounded-lg p-4 w-[18rem] sm:w-[27.125rem]'>
           <h2 className='font-medium text-center text-2xl text-text-color pt-2 border-b-[1px] border-black'>Premium</h2>
           <ul className='text-lg font-normal mt-6 space-y-6 capitalize'>
             <LiSection text='Basic Features'/>
@@ -48,12 +48,12 @@ function PricingSection() {
           </div>
           <p className='text-l text-lg font-normal mb-4 text-[#6A737C] text-center'>Billed monthly</p>
           <div className='flex flex-col justify-center items-center'>
-            <button className="h-[3rem] w-[24.125rem] text-white bg-main-color hover:bg-[#097192] rounded-lg text-2xl text-center font-semibold ">Select Plan</button>
+            <button className="h-[3rem] w-[17rem]  lg:w-[24.125rem] text-white bg-main-color hover:bg-[#097192] rounded-lg text-2xl text-center font-semibold ">Select Plan</button>
           </div>
         </div>
 
 
-        <div className=' border-2 border-[#B4DFEC] hover:scale-105 rounded-lg p-4 '>
+        <div className=' border-2 border-[#B4DFEC] hover:scale-105 rounded-lg p-4 w-[18rem] sm:w-[27.125rem]'>
           <h2 className='font-medium text-center text-2xl text-text-color pt-2 border-b-[1px] border-black'>Custom</h2>
           <ul className='text-lg font-normal mt-6 space-y-6 capitalize'>
             <LiSection text='Basic Features' />
@@ -67,7 +67,7 @@ function PricingSection() {
             <LiSection text='Report Designer' />
           </ul>
           <div className='flex flex-col justify-center items-center mt-8'>
-            <button className="h-[3rem] w-[24.125rem] text-white bg-main-color hover:bg-[#097192] rounded-lg text-2xl text-center font-semibold ">Select Plan</button>
+            <button className="h-[3rem] w-[17rem]  lg:w-[24.125rem] text-white bg-main-color hover:bg-[#097192] rounded-lg text-2xl text-center font-semibold ">Select Plan</button>
           </div>
         </div>
 

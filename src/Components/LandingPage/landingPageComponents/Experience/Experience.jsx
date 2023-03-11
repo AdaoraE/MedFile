@@ -14,11 +14,11 @@ function Section3() {
         </div>
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-10">
           <div>
-            <div className="border-[1px] w-[30rem]  border-[#0C97C2] mt-6"></div>
+            <div className="border-[1px] w-[15rem]  border-[#0C97C2] mt-6"></div>
             <div className="flex gap-2 text-yellow mt-6">
               <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
             </div>
-            <p className=" w-[30rem] font-normal leading-5 text-base mt-5">
+            <p className=" font-normal leading-5 text-base mt-5">
               Medfile offers cloud based fully integrated Electronic Medical
               Record (EMR) solution designed and developed specifically to suit
               the requirements of Hospitals, Specialty and diagnostic centers.

@@ -24,7 +24,7 @@ function GetStarted() {
 
 
 
-        <img src={RightTopImage} alt="" className='w-[20%]  absolute right-[-100px] top-[-60px]'/>
+        <img src={RightTopImage} alt="" className='w-[20%] hidden lg:block xl:w-auto  absolute right-[-100px] top-[-60px]'/>
 
         <img src={FilledCircle} alt="" className='absolute right-[400px] bottom-[-57px] hidden lg:block xl:w-auto' />
         <img src={RightBottomImage} alt="" className='absolute right-[50px] bottom-[-57px] hidden xl:block' />

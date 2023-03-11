@@ -24,7 +24,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className='flex flex-row gap-10'>
+        <div className='flex flex-row flex-wrap gap-10'>
 
           {links.map(({id, heading, list }) => {
             return (
@@ -40,10 +40,6 @@ function Footer() {
 
             )
           })}
-
-
-
-
 
         </div>
 

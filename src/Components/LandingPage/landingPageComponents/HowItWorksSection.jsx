@@ -10,7 +10,7 @@ function HowItWorksSection() {
        <div className='flex flex-col xl:flex-row justify-between gap-10 items-center mt-9'>
           <a href="https://www.youtube.com/@tech4devhq618" target='_blank' rel="noreferrer" className='hover:scale-105'> <img src={YoutubeFrame} alt="" width='100%'/></a>
          <div>
-           <h3 className='font-semibold text-3xl mb-4'>The best medical file solution for healthcare providers</h3>
+           <h3 className='font-semibold text-center lg:text-left text-3xl mb-4'>The best medical file solution for healthcare providers</h3>
            <ul className='test-sm font-normal space-y-4'>
              <LiSection text='We provide a web based medical file system for hospitals and other healthcare facilities.' />
              <LiSection text='We offer a complete solution for managing patient data and case files.' />
