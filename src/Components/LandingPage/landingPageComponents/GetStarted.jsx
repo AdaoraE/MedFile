@@ -9,7 +9,7 @@ import Circle from '../images/ExcludeB.png'
 
 function GetStarted() {
   return (
-    <section className='bg-[#E7F5F9] text-center mt-20 py-10 h-[331px]'>
+    <section className='bg-[#E7F5F9] text-center mt-20 py-10'>
       
 <div className='text-black relative'>
         <img src={LeftTopImage} alt="" className='w-[20%] absolute top-[-60px] left-[-120px]' />

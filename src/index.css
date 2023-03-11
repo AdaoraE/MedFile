@@ -18,8 +18,7 @@ body {
   max-width: 1512px;
   height: 100vh;
   margin-inline: auto;
-  /* overflow-x: hidden; */
-overflow-y: auto;
+overflow-y: scroll;
 }
 .selected{
 background-color: #0C97C2;
@@ -28,11 +27,24 @@ color: white;
 .popup-open{
   background-color: red;
 }
+
+input:focus {
+      border-bottom-width: 2px;
+    }
+  
+        input:valid[focused="true"] {
+          border: 1px solid green;
+        }
+input:invalid[focused="true"] {
+      border: 1px solid red;
+    }
+  
+        input:invalid[focused="true"] ~ .error {
+      display: block;
+  
+}
 @media (max-width: 768px) {
 
-  /* body{
-    background-color: darkred;
-  } */
   section {
     padding: .5rem 2rem;
 
@@ -41,9 +53,6 @@ color: white;
 
 @media (min-width: 769px) {
 
-  /* body{
-    background-color: blue;
-  } */
   section {
     padding: .5rem 6rem;
   }

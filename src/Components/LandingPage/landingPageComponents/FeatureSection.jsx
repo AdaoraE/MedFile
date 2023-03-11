@@ -8,15 +8,15 @@ import CloudComputing from '../images/cloud-computing.png'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 function FeatureSection() {
   return (
-    <section id='feature'  className='flex flex-col items-center'>
+    <section name='feature'  className='flex flex-col items-center'>
       <div className='flex flex-col text-center'>
         <Headings text='Features' /> 
         <p className=' font-normal text-xl text-text-color my-9'>Medfile is a software network for hospitals to document patient details and case files electronically. The secure and advanced digital record management system ensures medical professionals can access critical information from anywhere, all-at-once.</p>
       </div>
 
-      <div className='grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-20'> 
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-20'> 
 
-        <div className='flex flex-col gap-7  w-[20rem] h-[23.125rem] justify-center items-center hover:shadow-2xl hover:rounded-xl p-6  '>
+        <div className='flex flex-col gap-7 w-[20rem] h-[23.125rem] justify-center items-center hover:shadow-2xl hover:rounded-xl p-6 '>
           <div className='bg-[#DBEFF6] rounded-xl w-[8.6rem] h-[8rem] flex items-center justify-center'>
             <img src={LightBulb} alt=""  />
           </div>
