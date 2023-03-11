@@ -40,7 +40,6 @@ function Hero() {
           className="flex flex-row text-sm md:text-base"
           onClick={handlesPopUp}
         >
-          {/* <input disabled placeholder='Enter your email address' className='w-[12rem] md:w-[25rem] lg:w-[30rem] h-12 text-main-color font-light placeholder-main-color border-2 border-main-color px-3 rounded-tl-lg rounded-bl-lg text-start' /> */}
           <button
             type="submit"
             className="bg-main-color text-white
