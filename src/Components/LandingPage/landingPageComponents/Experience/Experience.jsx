@@ -1,7 +1,7 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
 import UnionCircle from "../../images/Union.png";
-import Circle from "./Circle";
+// import Circle from "./Circle";
 function Section3() {
   return (
     <section className="bg-[#E7F5F9] py-20">

@@ -51,9 +51,9 @@ function Footer() {
         <p>Copyright @ Medfile. All Right Reserved.</p>
         <a href="/"> <p className='hover:text-main-color cursor-pointer'>Terms of Service</p></a>
         <div className='flex gap-8 mt-1'>
-         <a href="#" className='hover:text-main-color cursor-pointer '> < RiTwitterLine /></a>
-          <a href="" className='hover:text-main-color cursor-pointer'> <SlSocialLinkedin /></a>
-          <a href="" className='hover:text-main-color cursor-pointer'><SlSocialFacebook /></a>
+         <a href="/" className='hover:text-main-color cursor-pointer '> < RiTwitterLine /></a>
+          <a href="/" className='hover:text-main-color cursor-pointer'> <SlSocialLinkedin /></a>
+          <a href="/" className='hover:text-main-color cursor-pointer'><SlSocialFacebook /></a>
         </div>
       </div>
     </section>
