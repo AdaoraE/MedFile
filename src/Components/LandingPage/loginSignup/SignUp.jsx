@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import Logo from '../images/logo.png'
 import Part2Page from './Part2Page'
 import RepresentationBox from './RepresentationBox'
-import { auth, provider } from '../../../firebase'
+import { auth } from '../../../firebase'
 import {
     updateProfile,
     createUserWithEmailAndPassword,

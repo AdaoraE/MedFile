@@ -12,7 +12,7 @@ function Hero() {
     }, 1000);
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, );
 
   // --------------POP UP------------------
   const [isPopUp, setPopUp] = useState(false);

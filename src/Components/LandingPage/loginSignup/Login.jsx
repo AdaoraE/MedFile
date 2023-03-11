@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import InputField from "./InputField";
 import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Logo from "../images/logo.png";
 import Part2Page from "./Part2Page";
 import RepresentationBox from "./RepresentationBox";
