@@ -7,14 +7,14 @@ import PricingSection from "./landingPageComponents/PricingSection";
 import OurCustomer from './landingPageComponents/ourCustomer/OurCustomer'
 import GetStarted from "./landingPageComponents/GetStarted";
 import Footer from "./landingPageComponents/footer/Footer";
-import Experience from './landingPageComponents/Experience/Experience';
+// import Experience from './landingPageComponents/Experience/Experience';
 
 function LandingComponent() {
     return (
         <>
             <NavBar />
             <Hero />
-            <Experience />
+            {/* <Experience /> */}
             <FeatureSection />
             <HowItWorksSection />
             <PricingSection />
