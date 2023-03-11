@@ -19,6 +19,7 @@ body {
   height: 100vh;
   margin-inline: auto;
 overflow-y: scroll;
+overflow-x: hidden;
 }
 .selected{
 background-color: #0C97C2;
