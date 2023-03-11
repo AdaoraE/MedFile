@@ -24,7 +24,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className='flex flex-row flex-wrap gap-10'>
+        <div className='grid grid-cols-2 sm:grid-cols-3 gap-5'>
 
           {links.map(({id, heading, list }) => {
             return (
@@ -49,11 +49,11 @@ function Footer() {
       <hr />
       <div className='flex flex-col lg:flex-row  justify-between items-center my-6 text-sm'>
         <p>Copyright @ Medfile. All Right Reserved.</p>
-        <p>Terms of Service</p>
+        <a href="/"> <p className='hover:text-main-color cursor-pointer'>Terms of Service</p></a>
         <div className='flex gap-8 mt-1'>
-         <a href="#" className=' hover:scale-150 '> < RiTwitterLine /></a>
-          <a href="" className=' hover:scale-150 '> <SlSocialLinkedin /></a>
-            <a href="" className='hover:scale-150'><SlSocialFacebook /></a>
+         <a href="#" className='hover:text-main-color cursor-pointer '> < RiTwitterLine /></a>
+          <a href="" className='hover:text-main-color cursor-pointer'> <SlSocialLinkedin /></a>
+          <a href="" className='hover:text-main-color cursor-pointer'><SlSocialFacebook /></a>
         </div>
       </div>
     </section>
