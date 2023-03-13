@@ -4,7 +4,13 @@
             "title": "Product",
             "link":"home",
             "subTitle":[
-                    "Product","MedFile"]
+                {
+                    "sub1": "Product"
+                },
+                  {
+                    "sub2":"MedFile"
+                  } 
+                ]
         },
         {
             "id": 2,

@@ -16,7 +16,8 @@ function InputField(props) {
         }
         onBlur={handleFocus}
         focused={focused.toString()}
-         className=' border-[1px] border-[#6A737C] p-3 rounded-lg w-full ' />
+         className=' border-[1px] border-[#6A737C] p-3 rounded-lg w-full ' 
+         required/>
 
          {/* REVISIT */}
       <span className="error text-red-600 text-sm hidden">{errorMessage}</span>

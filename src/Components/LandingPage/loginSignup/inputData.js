@@ -14,8 +14,8 @@
      type: "password",
      placeholder: "Password",
      errorMessage:
-       "Password should be 8-20 characters and include at least one uppercase letter, one lowercase letter and one number",
-    //  pattern: `^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$`,
+       "Password should be 8-20 characters and include at least 1 letter, 1 number, 1 special character",
+     pattern: `(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*()_+])[A-Za-z0-9!@#$%^&*()_+]{8,20}$`,
      required: true,
    },
    {

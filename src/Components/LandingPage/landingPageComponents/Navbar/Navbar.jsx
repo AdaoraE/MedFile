@@ -17,16 +17,12 @@ function NavBar() {
             <Link
               to="/login"
               className="text-main-color  py-2 px-[10px] rounded-lg border-2 border-main-color hover:bg-main-color hover:text-white text-base "
-            >
-              {" "}
-              Log in{" "}
+            >Log in
             </Link>
             <Link
               to="/signUp"
               className="ml-10 bg-main-color hover:bg-[#0A799B]  text-white py-2 px-[10px] rounded-lg border-2 border-main-color hover:border-[#0A799B]"
-            >
-              Get Started
-            </Link>
+            >Get Started</Link>
           </div>
         </div>
       </nav>
