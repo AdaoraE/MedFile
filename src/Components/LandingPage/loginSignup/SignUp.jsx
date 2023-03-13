@@ -122,7 +122,7 @@ function SignUp() {
           <RoleBox
             id={formData.role}
             className={`box ${
-              formData.role === "box1" ? "selected" : ""
+              formData.role === "hospital" ? "selected" : ""
             }`}
             onClick={() => handleBoxClick("hospital")}
           >
@@ -132,7 +132,7 @@ function SignUp() {
           <RoleBox
             id={formData.role}
             className={`box ${
-              formData.role === "box2" ? "selected" : ""
+              formData.role === "laboratory" ? "selected" : ""
             }`}
             onClick={() => handleBoxClick("laboratory")}
           >
@@ -142,7 +142,7 @@ function SignUp() {
           <RoleBox
             name="Healthcare"
             className={`box ${
-              formData.role === "box3" ? "selected" : ""
+              formData.role === "healthcare" ? "selected" : ""
             }`}
             onClick={() => handleBoxClick("healthcare")}
           >
